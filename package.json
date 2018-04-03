@@ -1,0 +1,24 @@
+{
+  "name": "coin-counter-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-sass scss/main.scss css/style -w"
+  },
+  "author": "Adam Millington",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglify-es": "^1.0.1",
+    "gulp-uglifycss": "^1.0.9",
+    "node-sass": "^4.8.3",
+    "pump": "^3.0.0"
+  }
+}
